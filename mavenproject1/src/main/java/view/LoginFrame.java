@@ -42,12 +42,9 @@ public class LoginFrame extends javax.swing.JFrame {
 
         Label.setText("Usuário");
 
-        txtLogin.setText("jTextField1");
         txtLogin.addActionListener(this::txtLoginActionPerformed);
 
         jLabel2.setText("Senha");
-
-        txtSenha.setText("jPasswordField1");
 
         btnEntrar.setText("Entrar");
         btnEntrar.addActionListener(this::btnEntrarActionPerformed);
@@ -68,7 +65,7 @@ public class LoginFrame extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtLogin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(898, Short.MAX_VALUE))
+                .addContainerGap(924, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -55,14 +55,6 @@ public class CadastroClienteFrame extends javax.swing.JFrame {
         btnCadastrar.setText("Cadastrar");
         btnCadastrar.addActionListener(this::btnCadastrarActionPerformed);
 
-        txtNome.setText("jTextField1");
-
-        txtCpf.setText("jTextField1");
-
-        txtEndereco.setText("jTextField1");
-
-        txtCelular.setText("jTextField1");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -83,7 +75,7 @@ public class CadastroClienteFrame extends javax.swing.JFrame {
                             .addComponent(txtEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtCpf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(230, Short.MAX_VALUE))
+                .addContainerGap(236, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

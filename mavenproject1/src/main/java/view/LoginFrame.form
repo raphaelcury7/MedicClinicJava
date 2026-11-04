@@ -39,7 +39,7 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="898" max="32767" attributes="0"/>
+              <EmptySpace pref="924" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -70,9 +70,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtLogin">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField1"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLoginActionPerformed"/>
       </Events>
@@ -83,9 +80,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JPasswordField" name="txtSenha">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jPasswordField1"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnEntrar">
       <Properties>
