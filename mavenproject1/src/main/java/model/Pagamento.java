@@ -19,9 +19,8 @@ public class Pagamento {
         this.status = status;
 }
 
-   public void confirmar(){
-
-   }
+    public void confirmar(){
+       this.status = StatusPagamento.CONFIRMADO;
+    }
 
 }
-
